@@ -24,6 +24,8 @@ body {
 
 .Welcome {
   color: black;
+  text-align: center;
+  margin-left: 5em;
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange;
@@ -32,7 +34,7 @@ body {
   /* Keeps the content on a single line */
   margin: 0 auto;
   /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em;
+  letter-spacing: .75em;
   /* Adjust as needed */
   -webkit-animation: typing 5s steps(40, end), blink-caret 1s step-end infinite;
           animation: typing 5s steps(40, end), blink-caret 1s step-end infinite;
@@ -72,6 +74,11 @@ body {
   50% {
     border-color: #0e0d0d;
   }
+}
+
+.name {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .navbar {
