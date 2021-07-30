@@ -430,6 +430,9 @@ nav li a:hover {
     margin-left: .5em;
     margin-top: -2em;
   }
+  .left-col .contact {
+    display: none;
+  }
   .image {
     image-rendering: -webkit-optimize-contrast;
     max-width: 100%;
